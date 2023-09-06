@@ -1,0 +1,52 @@
+.bal {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  margin: 6px;
+  color: aliceblue;
+  border-radius: px;
+}
+.moviecontainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 6px;
+  border-radius: 10px;
+}
+
+.shopcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 6px;
+  border-radius: 10px;
+}
+
+img {
+  width: 160px;
+  height: 130px;
+  border-radius: 10px;
+}
+
+.movieScrol {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 10px;
+  margin: 6px;
+  border-radius: 10px;
+}
+.movieBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  margin: 6px;
+  border-radius: 10px;
+  width: max-content;
+}
+.btn {
+  margin-top: 10px;
+  margin-left: 5px;
+  height: 25px;
+}
