@@ -79,11 +79,10 @@ img {
   margin-left: 6px;
 }
 
-.movieLink{
-    color: aliceblue;
-    text-decoration: none;
+.movieLink {
+  color: aliceblue;
+  text-decoration: none;
 }
-.movieLink:hover{
-
-    text-decoration:underline;
+.movieLink:hover {
+  text-decoration: underline;
 }
