@@ -1,0 +1,137 @@
+/* CSS for Balancing Section */
+.bal {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+  margin: 6px;
+  align-items: flex-end;
+}
+
+/* CSS for Movie Container */
+.moviecontainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 1px;
+  border-radius: 10px;
+}
+
+/* Hover effect for Links */
+.link-dark:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* CSS for Images */
+img {
+  width: 160px;
+  height: 130px;
+  border-radius: 10px;
+}
+
+/* Scrollable Movie Container */
+.movieScrol {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 10px;
+  margin: 6px;
+  border-radius: 10px;
+}
+
+/* Individual Movie Box */
+.movieBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  margin: 6px;
+  border-radius: 10px;
+  width: max-content;
+}
+
+/* Search Button */
+.searchBtn {
+  display: flex;
+  border-radius: 3px;
+  width: max-content;
+  background-color: black;
+  border: double;
+  color: aliceblue;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Hover effect for Search Button */
+.searchBtn:hover {
+  background-color: transparent;
+  color: black;
+  margin: 1px;
+  margin-right: 7px;
+}
+
+/* Search Input Field */
+.searchInput {
+  display: flex;
+  border: none;
+  color: aliceblue;
+  cursor: pointer;
+  margin-left: 6px;
+}
+
+/* Movie Link Styling */
+.movieLink {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+/* Hover effect for Movie Links */
+.movieLink:hover {
+  text-decoration: underline;
+}
+
+/* Additional CSS for Navbar (from Bootstrap) */
+/* You can customize the Bootstrap styles as needed */
+
+/* Style for the container div */
+.scroll-container {
+  width: 100%;
+  max-height: 300px; /* Adjust as needed */
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+
+/* Style for the A-Z header */
+.az-header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+
+/* Style for the small letters */
+.small-letters {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 18px;
+}
+
+/* Style for the scrollable content */
+.scroll-content {
+  display: flex;
+  overflow: auto;
+  padding: 10px;
+  animation: scrollAnimation 10s linear infinite; /* Adjust animation duration as needed */
+}
+
+/* Keyframes for the endless scrolling animation */
+@keyframes scrollAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
