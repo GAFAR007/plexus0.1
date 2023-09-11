@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>
+      Interactive Number Clicking Game
+    </title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pop the Box</h1>
+      <div class="rules">
+        <h2>How to Play:</h2>
+        <ol>
+          <li>
+            Click "Start" to begin the challenge!
+          </li>
+          <li>
+            Buttons with numbers will pop up.
+          </li>
+          <li>
+            Your mission: Pop buttons to reach 55.
+          </li>
+          <li>
+            Beat the timer, or you'll lose the
+            round!
+          </li>
+
+          <li>
+            First to win 10 times is the ultimate
+            champion!
+          </li>
+          <li>
+            Pop all buttons before resetting for
+            the next round.
+          </li>
+          <li>
+            Stay below 55 to keep the game alive!
+          </li>
+          <li>
+            Reset and start for the next thrilling
+            round.
+          </li>
+        </ol>
+      </div>
+
+      <button id="startButton">Start</button>
+      <div class="countdown-info">
+        <p>
+          You have
+          <span id="countdown"></span> seconds to
+          click buttons.
+        </p>
+      </div>
+      <div class="scoreboard">
+        <h2>Scoreboard:</h2>
+        <table>
+          <tr>
+            <th>You Win</th>
+            <th>Computer Win</th>
+          </tr>
+          <tr>
+            <td id="youWinCount">0</td>
+            <td id="computerWinCount">0</td>
+          </tr>
+        </table>
+      </div>
+      <div class="sum-display" id="sumDisplay">
+        Sum: 0
+      </div>
+      <button id="stopButton">Stop</button>
+      <button id="resetButton">Reset</button>
+      <p
+        id="resultMessage"
+        style="display: none"></p>
+      <p class="reminder">
+        Refresh the page to start a new game once
+        a winner is determined.
+      </p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
