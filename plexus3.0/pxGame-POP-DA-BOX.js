@@ -53,7 +53,7 @@ document.addEventListener(
     }
 
     function displayWinner(winner) {
-      resultMessage.textContent = `${winner} wins!`;
+      resultMessage.textContent = `${winner} won the game! `;
       resultMessage.style.display = "block";
       clearInterval(countdownInterval);
     }
